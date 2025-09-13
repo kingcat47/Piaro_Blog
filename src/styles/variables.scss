@@ -1,0 +1,22 @@
+// Breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$large: 1200px;
+
+// Layout
+$max-width: 768px;              // 블로그 콘텐츠 최적 너비
+$max-width-wide: 1200px;        // 와이드 레이아웃
+
+// Spacing
+$padding-mobile: 16px;
+$padding-tablet: 24px;
+$padding-desktop: 32px;
+$gap-mobile: 40px;
+$gap-tablet: 60px;
+$gap-desktop: 75px;
+
+// Colors (CSS 변수로 다크모드 지원)
+$color-surface: #ffffff;
+$color-background: #fafafa;
+$color-text:  #1a1a1a;

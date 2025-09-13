@@ -23,3 +23,16 @@ h1, h2, h3, h4, h5, h6, p {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+// globals.scss에 추가
+:root {
+  --color-surface: #ffffff;
+  --color-background: #fafafa;
+  --color-text: #1a1a1a;
+}
+
+[data-theme="dark"] {
+  --color-surface: #1a1a1a;
+  --color-background: #0d1117;
+  --color-text: #f0f6fc;
+}
